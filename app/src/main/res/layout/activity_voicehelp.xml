@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#B6B4B4"
+    android:layout_margin="20dp"
+    android:layout_gravity="center"
+    tools:context=".voicehelp">
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"
+        android:text="Play"
+        android:id="@+id/playbtn"
+        android:layout_gravity="center_horizontal"
+        android:onClick="playvoice"
+        android:textColor="@color/White"
+        android:background="@drawable/round_button"
+
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:textSize="30sp"
+        android:text="Pause"
+        android:layout_marginTop="20dp"
+        android:id="@+id/pausebtn"
+        android:layout_gravity="center_horizontal"
+        android:onClick="pausevoice"
+        android:textColor="@color/White"
+        android:background="@drawable/round_button"
+
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:textSize="30sp"
+        android:text="Stop"
+        android:layout_marginTop="20dp"
+        android:id="@+id/stopbtn"
+        android:layout_gravity="center_horizontal"
+        android:onClick="stopvoice"
+        android:textColor="@color/White"
+        android:background="@drawable/round_button"
+
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:text="Get Back"
+        android:onClick="gotoback"
+        android:id="@+id/getback"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/White"
+        android:background="@drawable/round_button"
+
+        />
+
+</LinearLayout>

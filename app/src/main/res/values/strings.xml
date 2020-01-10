@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">E-Workers</string>
+    <string name="title_activity_tabed">tabedActivity</string>
+    <string name="tab_text_1">Task</string>
+    <string name="tab_text_2">My Task</string>
+    <string name="tab_text_3">Profile</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="terms_and_conditions">I agree to Terms and Conditions</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="title_activity_home_page_tab_screen">HomePageTabScreen</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="result_will_appear_here">Result will appear here.</string>
+    <string name="type_something">Type something...</string>
+
+    <string-array name="country1_arrays">
+        <item>English</item>
+    </string-array>
+    <string-array name="country_arrays">
+        <item>Urdu</item>
+        <item>Arabic</item>
+        <item>Hindi</item>
+        <item>Chinese</item>
+
+    </string-array>
+
+</resources>

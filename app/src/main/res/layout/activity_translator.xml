@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#D5D5D5"
+    tools:context=".Translator">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_marginRight="5dp"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="5dp">
+
+        <EditText
+            android:id="@+id/srcText"
+            android:layout_width="385dp"
+            android:layout_height="290dp"
+            android:layout_marginLeft="15dp"
+            android:gravity="top"
+            android:hint="@string/type_something"
+            android:inputType="textMultiLine"
+            android:lines="13" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_marginRight="5dp"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/BlueButtons"
+            >
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:entries="@array/country1_arrays"
+                android:gravity="center"
+                android:padding="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/translate"
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:padding="5dp"
+                android:src="@drawable/icon_translate"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="5dp"
+                android:entries="@array/country_arrays"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_marginRight="5dp"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="5dp">
+
+        <EditText
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#FFFFFF"
+            android:enabled="false"
+            android:gravity="top"
+            android:layout_marginLeft="3dp"
+            android:hint="@string/result_will_appear_here"
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:textColor="#000000" />
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/mytask_dialogue_layout"
+    android:layout_width="380dp"
+    android:background="@drawable/round_dialog"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="20dp"
+        app:cardElevation="10dp"
+        android:layout_gravity="center">
+
+
+
+        <ImageView
+            android:id="@+id/mytask_dialogue_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_worker"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/mytask_dialogue_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:text="Name"
+        android:textAllCaps="true"
+        android:textSize="15dp"
+        android:textStyle="bold"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/round_tasks"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2"
+            android:gravity="start"
+            android:text="Task ID"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            />
+
+
+        <TextView
+            android:id="@+id/dialogue_myTask_taskid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="2"
+            android:gravity="end"
+            android:text="1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/round_tasks"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Job ID"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2"
+            android:textSize="18sp"
+            android:gravity="start"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/dialogue_myTask_jobid"
+            android:text="1"
+            android:layout_marginRight="10dp"
+            android:gravity="end"
+            android:layout_weight="2"
+            android:textSize="18sp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/round_tasks"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Status"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2"
+            android:textSize="18sp"
+            android:gravity="start"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/dialogue_myTask_description"
+            android:text="1"
+            android:layout_marginRight="10dp"
+            android:gravity="end"
+            android:layout_weight="2"
+            android:textSize="18sp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/round_tasks"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Location"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2"
+            android:textSize="18sp"
+            android:gravity="start"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/dialogue_myTask_Location"
+            android:text="abc"
+            android:layout_marginRight="10dp"
+            android:gravity="end"
+            android:layout_weight="2"
+            android:textSize="18sp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/round_tasks"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Date"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2"
+            android:textSize="18sp"
+            android:gravity="start"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/dialogue_myTask_date"
+            android:text="mm/dd/yy"
+            android:layout_marginRight="10dp"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:textSize="18sp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/round_tasks"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Bill"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2"
+            android:textSize="18sp"
+            android:gravity="start"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/dialogue_myTask_bill"
+            android:text="$999"
+            android:layout_marginRight="10dp"
+            android:gravity="end"
+            android:layout_weight="2"
+            android:textSize="18sp"
+
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/dialog_mytask_btn"
+        android:width="200dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:textColor="@color/ButtonText"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/round_button"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DAD5D5"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.main.PlaceholderFragment"
+    >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:layout_height="250dp">
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/pp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/profile_back"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="USER PROFILE"
+        android:id="@+id/jn"
+        android:textColor="@color/BlackText"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        />
+</LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"
+        android:text="Personal Information"
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:background="#E7E5E5"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/profile_tv_username_heading"
+                android:layout_width="125dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingStart="4dp"
+                android:text="User Name :"
+                android:background="#D2D8F8"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/profile_tv_username"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:gravity="center"
+                android:layout_weight="3"
+                android:padding="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#D9E8F5"
+                android:text=""
+                android:textColor="@color/BlackText"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#E7E5E5"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/profile_tv_useremail_heading"
+                android:layout_width="125dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingStart="4dp"
+                android:text="Email       :"
+                android:background="#D2D8F8"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/profile_tv_email"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:gravity="center"
+                android:layout_weight="3"
+
+                android:padding="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#D9E8F5"
+                android:text=""
+                android:textColor="@color/BlackText"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="13dp"
+        app:cardBackgroundColor="#858484"
+        />
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+
+            android:background="#E7E5E5"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingStart="4dp"
+                android:text="Name      :"
+                android:background="#D2D8F8"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/profile_tv_name"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:gravity="center"
+                android:layout_weight="3"
+                android:padding="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#D9E8F5"
+                android:text=""
+                android:textColor="@color/BlackText"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#E7E5E5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingStart="4dp"
+                android:text="Phone No :"
+                android:background="#D2D8F8"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/profile_tv_phone"
+                android:text=""
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:gravity="center"
+                android:layout_weight="3"
+                android:padding="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#D9E8F5"
+                android:textColor="@color/BlackText"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#E7E5E5"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingStart="4dp"
+                android:text="Adress    :"
+                android:background="#D2D8F8"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/profile_tv_adress"
+                android:text=""
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:gravity="center"
+                android:layout_weight="3"
+                android:padding="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#D9E8F5"
+                android:textColor="@color/BlackText"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <Button
+        android:id="@+id/profile_tv_changebtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round_button"
+        android:text="Edit Profile"
+        android:textStyle="bold"
+        android:textColor="@color/BlackText"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/profile_tv_savebtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:enabled="false"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round_button"
+        android:textStyle="bold"
+        android:text="Save Profile"
+        android:textColor="@color/BlackText"
+        android:textSize="20sp" />
+
+</LinearLayout>
+</ScrollView>
